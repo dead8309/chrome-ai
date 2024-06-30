@@ -1,11 +1,11 @@
 package org.example.chromeai.model
 
-import kotlinx.serialization.Serializable
+import web.streams.ReadableStreamDefaultReader
 
-@Serializable
 sealed interface Message {
-    @Serializable
-    data class User(val text: String): Message
-    @Serializable
-    data class Bot(val text: String): Message
+    data class User(val text: String) : Message
+    sealed interface AI : Message {
+        data class Text(val text: String) : AI
+        data class Stream(val stream: ReadableStreamDefaultReader<String>) : AI
+    }
 }
