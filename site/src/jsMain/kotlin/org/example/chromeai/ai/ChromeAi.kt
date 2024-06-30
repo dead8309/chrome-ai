@@ -1,4 +1,4 @@
-@file:Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE")
+@file:Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE", "UNUSED")
 
 package org.example.chromeai.ai
 
