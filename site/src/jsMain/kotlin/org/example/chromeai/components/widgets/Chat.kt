@@ -151,6 +151,7 @@ fun BotMessage(text: String, time: String) {
                 .maxWidth(36.cssRem)
                 .borderRadius(0.5.cssRem)
                 .padding(12.px)
+                .backgroundColor(Color.white)
         ) {
             SpanText(text)
         }

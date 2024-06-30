@@ -130,6 +130,7 @@ val ChatGridStyle = CssStyle {
 val PromptContainerStyle = CssStyle.base {
     Modifier
         .fillMaxWidth()
+        .backgroundColor(Color.white)
         .position(Position.Sticky)
         .bottom(0.px)
         .padding(topBottom = 12.px)
@@ -145,7 +146,6 @@ val PromptRowStyle = CssStyle {
         Modifier
             .fillMaxWidth()
             .padding(leftRight = 8.px)
-            .backgroundColor(Color.white)
     }
     Breakpoint.MD {
         Modifier
