@@ -22,11 +22,11 @@ import com.varabyte.kobweb.silk.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.style.selectors.hover
 import com.varabyte.kobweb.silk.style.toAttrs
 import com.varabyte.kobweb.silk.style.toModifier
+import com.github.dead8309.chrome.ai.TextSession
+import com.github.dead8309.chrome.ai.ai
 import js.promise.await
 import kotlinx.browser.window
 import kotlinx.coroutines.launch
-import org.example.chromeai.ai.ChromeAiSession
-import org.example.chromeai.ai.ai
 import org.example.chromeai.components.Colors
 import org.example.chromeai.components.layouts.PageLayout
 import org.example.chromeai.components.sections.ChatMessages
@@ -43,8 +43,8 @@ fun HomePage() {
     val messages = remember { mutableStateListOf<Message>() }
     var prompt by remember { mutableStateOf("") }
     val scope = rememberCoroutineScope()
-    val model = window.ai()
-    var session: ChromeAiSession? = null
+    val model = window.ai
+    var session: TextSession? = null
 
     LaunchedEffect(Unit) {
         session = model.createTextSession().await()

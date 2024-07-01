@@ -1,14 +1,11 @@
 import com.varabyte.kobweb.gradle.application.extensions.AppBlock.LegacyRouteRedirectStrategy
 import com.varabyte.kobweb.gradle.application.util.configAsKobwebApplication
 import kotlinx.html.link
-import org.gradle.internal.impldep.org.eclipse.jgit.transport.ReceiveCommand.link
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.kobweb.application)
-    alias(libs.plugins.kotlinx.serialization)
-    // alias(libs.plugins.kobwebx.markdown)
 }
 
 group = "org.example.chromeai"
@@ -31,9 +28,6 @@ kobweb {
 
 kotlin {
     configAsKobwebApplication("chromeai")
-    val kotlinWrappersVersion = "1.0.0-pre.722"
-
-
     sourceSets {
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -44,9 +38,7 @@ kotlin {
             implementation(libs.kobweb.core)
             implementation(libs.kobweb.silk)
             implementation(libs.silk.icons.fa)
-            implementation(libs.kotlinx.serialization.json)
-            implementation(platform("org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom:$kotlinWrappersVersion"))
-            implementation("org.jetbrains.kotlin-wrappers:kotlin-web")
+            implementation(project(":ai"))
         }
     }
 }
