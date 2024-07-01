@@ -9,4 +9,4 @@ pluginManagement {
 rootProject.name = "chromeai"
 
 include(":site")
-
+include("ai")
