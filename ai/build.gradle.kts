@@ -44,12 +44,6 @@ publishing {
             groupId = "com.github.dead8309"
             artifactId = "chrome-ai"
             version = version
-            artifacts {
-                artifact(tasks["dokkaJar"])
-                artifact(tasks.sourcesJar) {
-                    classifier = "sources"
-                }
-            }
         }
     }
 }
