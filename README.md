@@ -1,13 +1,53 @@
-<div align="center">
-<img alt="demo" src="assets/demo.png" align="center" width="600" />
-<h1>chrome-ai-kt</h1>
+<p align="center">
+  <a href="#">
+    <img alt="demo" src="assets/demo.png" align="center" width="400" />
+  </a>
+</p>
 
-Using google's new Chrome AI api for a chatbot demo with kotlin/js using [kobweb](https://github.com/varabyte/kobweb)
-</div>
+<h1 align="center">chrome-ai</h1>
+
+<p>
+  Experimental library built on top of the <a href="https://github.com/varabyte/kobweb" target="_blank" rel="noopener noreferrer">Kobweb</a> (Compose HTML framework). It allows you to use the official <a href="https://developer.chrome.com/docs/ai/built-in" target="_blank" rel="noopener noreferrer">Built-in AI</a> with KotlinJS and Compose HTML.
+</p>
+
+> [!IMPORTANT]  
+> Check [enable AI in Chrome](#enable-ai-in-chrome) first to use this library.
+
 
 ## Demo
 
-https://github.com/dead8309/chrome-ai-kt/assets/68665948/ba286c87-b4fd-491e-981c-2be5981c9f08
+https://github.com/dead8309/chrome-ai/assets/68665948/6b14f9a0-f53c-4a07-b33a-ba2ff19bbe11
+
+
+## Installation
+
+Update your project's `build.gradle.kts` file:
+```gradle
+repositories {
+    ..
+    maven(url = "https://jitpack.io")
+}
+```
+
+Add the dependency to your module's `build.gradle.kts` file:
+```gradle
+kotlin { 
+    sourceSets {
+        ..
+        val jsMain by getting {
+            dependencies {
+                ..
+                implementation("com.github.dead8309:chrome-ai:0.0.1")
+            }
+        }
+    }
+}
+```
+
+
+## Docs
+
+Checkout the docs [dead8309.github.io/chrome-ai](https://dead8309.github.io/chrome-ai/)
 
 
 ## Enable AI in Chrome
