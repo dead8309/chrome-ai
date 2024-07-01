@@ -1,0 +1,30 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.github.dead8309.chrome.ai////PointingToDeclaration/ai/com.github.dead8309.chrome.ai/index.html
+$dokka.location:com.github.dead8309.chrome.ai//ai/org.w3c.dom.Window#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/ai.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager///PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/index.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager/canCreateGenericSession/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/can-create-generic-session.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager/canCreateTextSession/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/can-create-text-session.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager/createGenericSession/#com.github.dead8309.chrome.ai.SamplingParams?/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/create-generic-session.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager/createTextSession/#com.github.dead8309.chrome.ai.SamplingParams?/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/create-text-session.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager/defaultGenericSessionOptions/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/default-generic-session-options.html
+$dokka.location:com.github.dead8309.chrome.ai/AIManager/defaultTextSessionOptions/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-manager/default-text-session-options.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability.AFTER_DOWNLOAD///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}ai/com.github.dead8309.chrome.ai/-a-i-model-availability/-a-f-t-e-r_-d-o-w-n-l-o-a-d/index.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability.NO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}ai/com.github.dead8309.chrome.ai/-a-i-model-availability/-n-o/index.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability.READILY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}ai/com.github.dead8309.chrome.ai/-a-i-model-availability/-r-e-a-d-i-l-y/index.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability///PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-model-availability/index.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability/entries/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-model-availability/entries.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability/valueOf/#kotlin.String/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-model-availability/value-of.html
+$dokka.location:com.github.dead8309.chrome.ai/AIModelAvailability/values/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-a-i-model-availability/values.html
+$dokka.location:com.github.dead8309.chrome.ai/SamplingParams///PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-sampling-params/index.html
+$dokka.location:com.github.dead8309.chrome.ai/SamplingParams/SamplingParams/#kotlin.Float?#kotlin.Int?/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-sampling-params/-sampling-params.html
+$dokka.location:com.github.dead8309.chrome.ai/SamplingParams/temperature/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-sampling-params/temperature.html
+$dokka.location:com.github.dead8309.chrome.ai/SamplingParams/topK/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-sampling-params/top-k.html
+$dokka.location:com.github.dead8309.chrome.ai/TextSession///PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-text-session/index.html
+$dokka.location:com.github.dead8309.chrome.ai/TextSession/destroy/#/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-text-session/destroy.html
+$dokka.location:com.github.dead8309.chrome.ai/TextSession/execute/#kotlin.String/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-text-session/execute.html
+$dokka.location:com.github.dead8309.chrome.ai/TextSession/executeStreaming/#kotlin.String/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-text-session/execute-streaming.html
+$dokka.location:com.github.dead8309.chrome.ai/TextSession/prompt/#kotlin.String/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-text-session/prompt.html
+$dokka.location:com.github.dead8309.chrome.ai/TextSession/promptStreaming/#kotlin.String/PointingToDeclaration/ai/com.github.dead8309.chrome.ai/-text-session/prompt-streaming.html
+com.github.dead8309.chrome.ai
+
